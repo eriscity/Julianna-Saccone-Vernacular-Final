@@ -1,0 +1,517 @@
+
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    height 800px;
+    max-height: 80%;
+}
+
+#center {
+    margin-left: 50%;
+    margin-top: 50%;
+
+}
+
+.btn-1 {
+    position: absolute;
+    top: 50%;
+    right: 76%;
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.btn-2 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.btn-1:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;  
+}
+
+.btn-2:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;  
+}
+
+.text {
+    color: white;
+    position: absolute;
+    bottom: 700px;
+    left: 46.5%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 0 10px;
+}
+
+.badending p {
+    position: absolute;
+    top: 20%;
+    left: 100px;
+    max-width: 100%;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Courier Prime', monospace;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background: black
+}
+
+.restart-btn {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    width: 10%;
+    height: 5%;
+    font-family:'Courier Prime', monospace;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.restart-btn:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;  
+}
+
+.question-1 {
+    color: white;
+}
+
+.btn-grid {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  display: grid;
+  grid-template-rows: repeat(auto, 3);
+  grid-row-gap: 6px;
+  text-align: center;
+}
+
+.button1:hover span {display:none}
+.button1:hover:before {content:"Oh God."}
+
+.button2:hover span {display:none}
+.button2:hover:before {content:"It's happening again."}
+
+.button3:hover span {display:none}
+.button3:hover:before {content:"They are going to kill me."}
+
+.button4:hover span {display:none}
+.button4:hover:before {content:"Please. I'm so sorry"}
+
+
+.question-1 p {
+    position: absolute;
+    top: 40%;
+    left: 70px;
+    max-width: 100%;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Courier Prime', monospace;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background: black
+}
+
+.btn-3 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.btn-4 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.btn-5 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.btn-3:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s; 
+}
+
+.btn-4:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s; 
+}
+
+.btn-5:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s; 
+}
+
+.button1 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button2 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button3 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button4 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button1:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;
+}
+
+.button2:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;
+}
+
+.button3:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;
+}
+
+.button4:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s;
+}
+
+.image {
+  z-index: -1;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.button5 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button6 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button7 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button8 {
+    color: #86868b;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 3 5;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button5:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button6:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button7:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button8:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button5:hover span {display:none}
+.button5:hover:before {content:"Why would I want to be this way?"}
+
+.button6:hover span {display:none}
+.button6:hover:before {content:"Please let me go home."}
+
+.button7:hover span {display:none}
+.button7:hover:before {content:"Why is she looking at me like that?"}
+
+.button8:hover span {display:none}
+.button8:hover:before {content:"I don’t feel safe here."}
+
+.button9:hover span {display:none}
+.button9:hover:before {content:"Its not that simple."}
+
+.button10:hover span {display:none}
+.button10:hover:before {content:"Its not that simple."}
+
+.button9 {
+    color: #86868b;
+    position: relative;
+    right: 300px;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 10 10;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button10 {
+    color: #86868b;
+    position: relative;
+    right: 300px;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 10 10;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button9:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button10:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.image3 {
+    position: absolute;
+    z-index: -1;
+    bottom: 400px;
+}
+
+.button11 {
+    color: #86868b;
+    position: relative;
+    outline: none;
+    padding: 0;
+    border: none;
+    background: black;
+    padding: 10 10;
+    font-family:'Courier Prime', monospace;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: background .5s; 
+}
+
+.button11:hover {
+  color: white;
+  cursor: pointer; 
+  transition: color .5s
+}
+
+.button11:hover span {display:none}
+.button11:hover:before {content:"Don't be that way."}
